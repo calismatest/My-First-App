@@ -14,6 +14,7 @@
 		790D8CF21F2BD0620004506C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790D8CF01F2BD0620004506C /* LaunchScreen.storyboard */; };
 		790D8CFD1F2BD0620004506C /* SehirRehberiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D8CFC1F2BD0620004506C /* SehirRehberiTestTests.swift */; };
 		790D8D081F2BD0620004506C /* SehirRehberiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D8D071F2BD0620004506C /* SehirRehberiTestUITests.swift */; };
+		791EE9741F2BEC5900AA110E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791EE9731F2BEC5900AA110E /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		790D8D031F2BD0620004506C /* SehirRehberiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SehirRehberiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		790D8D071F2BD0620004506C /* SehirRehberiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SehirRehberiTestUITests.swift; sourceTree = "<group>"; };
 		790D8D091F2BD0620004506C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791EE9731F2BEC5900AA110E /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				790D8CEE1F2BD0620004506C /* Assets.xcassets */,
 				790D8CF01F2BD0620004506C /* LaunchScreen.storyboard */,
 				790D8CF31F2BD0620004506C /* Info.plist */,
+				791EE9731F2BEC5900AA110E /* DetailVC.swift */,
 			);
 			path = SehirRehberiTest;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				790D8CEA1F2BD0620004506C /* ViewController.swift in Sources */,
 				790D8CE81F2BD0620004506C /* AppDelegate.swift in Sources */,
+				791EE9741F2BEC5900AA110E /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				790D8D0E1F2BD0620004506C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		790D8D0F1F2BD0620004506C /* Build configuration list for PBXNativeTarget "SehirRehberiTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				790D8D111F2BD0620004506C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		790D8D121F2BD0620004506C /* Build configuration list for PBXNativeTarget "SehirRehberiTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				790D8D141F2BD0620004506C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
